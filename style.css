@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1  {
+    background: #380303;
+    background: linear-gradient(201deg, rgba(56, 3, 3, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    padding: 25px;
+    margin: 20px;
+    width: 1400px;
+    height: 60;
+}
+
+
+.film-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.film {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 250px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.film img {
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.film h2 {
+    color: #222;
+    margin-top: 10px;
+}
+
+.film p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Efekti me hover për zmadhim */
+.film img:hover {
+    transform: scale(1.1);
+}
