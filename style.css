@@ -1,14 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f3f3f3;
+    background: #3F5EFB;
+    background: radial-gradient(circle,rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
     margin: 0;
     padding: 20px;
     text-align: center;
 }
 
 h1  {
-    background: #380303;
-    background: linear-gradient(201deg, rgba(56, 3, 3, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    background: #833AB4;
+    background: linear-gradient(269deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
     color: white;
     padding: 25px;
     margin: 20px;
@@ -26,7 +27,7 @@ h1  {
 }
 
 .film {
-    background-color: white;
+    background-color: black;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     width: 250px;
@@ -42,16 +43,16 @@ h1  {
 }
 
 .film h2 {
-    color: #222;
+    color: white;
     margin-top: 10px;
 }
 
 .film p {
     font-size: 14px;
-    color: #666;
+    color: whitesmoke;
 }
 
-/* Efekti me hover për zmadhim */
+
 .film img:hover {
     transform: scale(1.1);
 }
