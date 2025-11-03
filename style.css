@@ -1,16 +1,25 @@
 body {
     font-family: Arial, sans-serif;
-    background: #3F5EFB;
-    background: radial-gradient(circle,rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
     margin: 0;
     padding: 20px;
     text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+header{
+    text-align: left;
+   
 }
 
 h1  {
     background: #833AB4;
     background: linear-gradient(269deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
-    color: white;
+    color: black;
     padding: 25px;
     margin: 20px;
     width: 1400px;
@@ -56,3 +65,27 @@ h1  {
 .film img:hover {
     transform: scale(1.1);
 }
+
+.toggle-btn {
+    font-size: 26px;
+    cursor: pointer;
+    gap: 20px;
+    justify-content: center;
+}
+
+body.dark {
+    background: linear-gradient(to bottom, #000428, #004e92);
+}
+
+
+i {
+  font-size: 30px;
+  color: whitesmoke;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+i:hover {
+  transform: rotate(20deg) scale(1.1);
+}
+
