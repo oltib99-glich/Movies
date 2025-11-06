@@ -12,3 +12,11 @@ if (document.body.classList.contains("dark")) {
     icon.classList.add("fa-sun");
    }
 });
+
+function updateOra() {
+  const now = new Date();
+  document.getElementById('ora').textContent = now.toLocaleTimeString();
+}
+setInterval(updateOra, 1000);
+updateOra();
+
